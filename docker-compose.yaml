@@ -3,6 +3,8 @@ networks:
   default:
     name: expense
     external: true
+volumes:
+  mysql:
 services: 
   mysql:
     image: mysql:v1.0
