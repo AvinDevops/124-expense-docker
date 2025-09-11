@@ -1,4 +1,4 @@
-FROM nodejs:20
+FROM node:20
 Expose 8080
 RUN useradd expense
 RUN mkdir /opt/server
