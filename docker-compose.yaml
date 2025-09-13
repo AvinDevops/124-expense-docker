@@ -2,7 +2,7 @@ name: expense
 networks:
   default:
     name: expense
-    external: true
+    # external: true
 volumes:
   mysql:
 services: 
