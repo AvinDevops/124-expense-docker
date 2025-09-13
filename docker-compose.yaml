@@ -5,6 +5,7 @@ networks:
     # external: true
 volumes:
   mysql:
+  external: true
 services: 
   mysql:
     image: mysql:v1.0
